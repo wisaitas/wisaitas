@@ -1,7 +1,7 @@
 # Hi there 👋 I'm Wisaitas Kampanat
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&height=100&lines=Backend+Architect;Go+Enthusiast;Microservices+Developer;Infrastructure+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&height=100&lines=Backend+Architect;Go+Enthusiast;Database+Engineer;Microservices+Developer;Infrastructure+Engineer" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
@@ -23,7 +23,7 @@ func NewDeveloper() *Developer {
         Location:  "Thailand 🇹🇭",
         Education: "Computer Engineering Student",
         Languages: []string{"Go", "JavaScript", "Java", "Rust", "Shell"},
-        Focus:     []string{"Microservices", "Clean Architecture", "DevOps"},
+        Focus:     []string{"Microservices", "Database Architecture", "Clean Architecture", "DevOps"},
     }
 }
 ```
@@ -37,7 +37,7 @@ func NewDeveloper() *Developer {
 <tr>
 <td align="center" width="120">
 <img src="https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<br><strong>9 Projects</strong>
+<br><strong>10 Projects</strong>
 <br><sub>⭐ Expert Level</sub>
 </td>
 <td align="center" width="120">
@@ -64,11 +64,11 @@ func NewDeveloper() *Developer {
 </table>
 
 ### 📊 Language Distribution
-Go ████████████████████████████████████████████████████████ 56.3% (9)
-JavaScript ████████████ 12.5% (2)
-Shell ████████████ 12.5% (2)
-Java ██████ 6.3% (1)
-Rust ██████ 6.3% (1)
+Go ██████████████████████████████████████████████████████████████ 58.8% (10)
+JavaScript ███████████ 11.8% (2)
+Shell ███████████ 11.8% (2)
+Java █████ 5.9% (1)
+Rust █████ 5.9% (1)
 
 </div>
 
@@ -76,11 +76,11 @@ Rust ██████ 6.3% (1)
 
 <div align="center">
 
-| **Backend Architecture** | **Infrastructure** | **Microservices** |
-|:------------------------:|:------------------:|:------------------:|
-| 🏗️ Clean Architecture | 🐳 Docker & K8s | 🔗 gRPC & GraphQL |
-| 📡 REST & GraphQL APIs | ☁️ Cloud Native | 📨 Message Queues |
-| 🗄️ Database Design | 🔧 CI/CD Pipelines | 🔐 Auth & Security |
+| **Backend Architecture** | **Database Engineering** | **Infrastructure** | **Microservices** |
+|:------------------------:|:------------------------:|:------------------:|:------------------:|
+| 🏗️ Clean Architecture | 🗄️ PostgreSQL Sharding | 🐳 Docker & K8s | 🔗 gRPC & GraphQL |
+| 📡 REST & GraphQL APIs | 🔄 Master-Replica Setup | ☁️ Cloud Native | 📨 Message Queues |
+| 🎯 Domain-Driven Design | 📊 Hash Partitioning | 🔧 CI/CD Pipelines | 🔐 Auth & Security |
 
 </div>
 
@@ -88,12 +88,36 @@ Rust ██████ 6.3% (1)
 
 <div align="center">
 
+[![PostgreSQL Sharding](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=sharding-golang&theme=radical)](https://github.com/wisaitas/sharding-golang)
 [![Standard Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=standard-golang&theme=radical)](https://github.com/wisaitas/standard-golang)
 [![RBAC Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=rbac-golang&theme=radical)](https://github.com/wisaitas/rbac-golang)
 [![Clean Architecture](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=clean-arch-golang&theme=radical)](https://github.com/wisaitas/clean-arch-golang)
-[![gRPC Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=grpc-golang&theme=radical)](https://github.com/wisaitas/grpc-golang)
 
 </div>
+
+## 🎯 Latest Achievement
+
+```go
+// 🚀 NEW: PostgreSQL Sharding with Master-Replica Architecture
+type ShardingProject struct {
+    Name         string `json:"name"`
+    Tech         []string `json:"technologies"`
+    Features     []string `json:"features"`
+    Complexity   string `json:"complexity"`
+}
+
+latestProject := ShardingProject{
+    Name: "sharding-golang",
+    Tech: []string{"Go", "PostgreSQL 17", "GORM", "Docker Compose"},
+    Features: []string{
+        "Hash Partitioning (4 Shards)",
+        "Master-Replica Replication", 
+        "Load Balancing with DBResolver",
+        "UUID v7 for Time-Ordered IDs",
+    },
+    Complexity: "Advanced Database Architecture",
+}
+```
 
 ## 📈 GitHub Analytics
 
@@ -110,6 +134,7 @@ Rust ██████ 6.3% (1)
 // What I'm working on
 currentProjects := []string{
     "🚀 Advanced Go Microservices",
+    "🗄️ Database Sharding & Partitioning",
     "☁️ Cloud-Native Applications", 
     "🔐 Authentication Systems",
     "📊 Distributed Systems",
@@ -119,6 +144,7 @@ currentProjects := []string{
 learningNext := []string{
     "Kubernetes & Service Mesh",
     "Event-Driven Architecture", 
+    "Advanced Database Optimization",
     "System Design Patterns",
 }
 ```
@@ -131,7 +157,7 @@ learningNext := []string{
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jiwwisaitad01@gmail.com)
 
 ### 💬 Available for:
-**Backend Architecture** • **Go Development** • **System Design** • **Technical Consultation**
+**Backend Architecture** • **Database Engineering** • **Go Development** • **System Design** • **Technical Consultation**
 
 </div>
 
