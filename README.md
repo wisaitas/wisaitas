@@ -88,10 +88,7 @@ Rust █████ 5.9% (1)
 
 <div align="center">
 
-[![PostgreSQL Sharding](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=sharding-golang&theme=radical)](https://github.com/wisaitas/sharding-golang)
 [![Standard Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=standard-golang&theme=radical)](https://github.com/wisaitas/standard-golang)
-[![RBAC Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=rbac-golang&theme=radical)](https://github.com/wisaitas/rbac-golang)
-[![Clean Architecture](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=clean-arch-golang&theme=radical)](https://github.com/wisaitas/clean-arch-golang)
 
 </div>
 
