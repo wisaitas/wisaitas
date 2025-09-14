@@ -90,7 +90,6 @@ Rust ███ 5% (1)
 <div align="center">
 
 [![Standard Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=standard-golang&theme=radical)](https://github.com/wisaitas/standard-golang)
-[![Sharding Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=sharding-golang&theme=radical)](https://github.com/wisaitas/sharding-golang)
 
 </div>
 
