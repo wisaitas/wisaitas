@@ -1,7 +1,7 @@
 # Hi there 👋 I'm Wisaitas Kampanat
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&height=100&lines=Backend+Architect;Go+Enthusiast;Database+Engineer;Microservices+Developer;Infrastructure+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&height=100&lines=Backend+DevOps;Go+Enthusiast;Site+Reliability+Engineering;Infrastructure+Engineer" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
