@@ -85,11 +85,42 @@ Rust ███ 5% (1)
 
 </div>
 
-## 🌟 Featured Projects
+## 🏆 Professional Certifications
 
 <div align="center">
 
-[![Standard Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=standard-golang&theme=radical)](https://github.com/wisaitas/standard-golang)
+```go
+type Certification struct {
+    Provider     string `json:"provider"`
+    Name         string `json:"certification_name"`
+    Status       string `json:"status"`
+    VerifyURL    string `json:"verification_url"`
+    Focus        []string `json:"focus_areas"`
+}
+
+certifications := []Certification{
+    {
+        Provider:  "Amazon Web Services (AWS)",
+        Name:      "AWS Certified Professional",
+        Status:    "✅ Verified & Active",
+        VerifyURL: "https://cp.certmetrics.com/amazon/en/public/verify/credential/422ee9eb32e546c1b93ae13c9a5a477d",
+        Focus:     []string{"Cloud Architecture", "Infrastructure", "DevOps", "Security"},
+    },
+}
+```
+
+<table>
+<tr>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+<br><strong>AWS Certified</strong>
+<br><sub>☁️ Cloud Professional</sub>
+<br><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/422ee9eb32e546c1b93ae13c9a5a477d">🔗 Verify Credential</a>
+</td>
+</tr>
+</table>
+
+**🎓 Certified in:** Cloud Architecture • Infrastructure Management • DevOps Practices • Security Best Practices
 
 </div>
 
@@ -102,6 +133,7 @@ type RecentWork struct {
     NewProjects    []string `json:"latest_projects"`
     Specialization []string `json:"current_focus"`
     Stars          int      `json:"total_stars"`
+    Certifications int      `json:"active_certifications"`
 }
 
 achievements := RecentWork{
@@ -120,8 +152,10 @@ achievements := RecentWork{
         "Automated Testing Frameworks",
         "Template-based Development",
         "Message Queue Systems",
+        "AWS Cloud Architecture",
     },
     Stars: 10, // Growing community support
+    Certifications: 1, // AWS Professional Certified
 }
 ```
 
@@ -145,6 +179,7 @@ currentProjects := []string{
     "📊 Distributed Logging Systems",
     "⚡ High-Performance Go Services",
     "🦀 Learning Rust for Systems Programming",
+    "☁️ AWS Cloud-Native Solutions",
 }
 
 // Next learning objectives
@@ -154,6 +189,7 @@ roadmap2025 := []string{
     "Database Performance Optimization",
     "Observability & Monitoring Stack",
     "Cloud-Native Security Patterns",
+    "AWS Advanced Architectures",
 }
 
 // Technical expertise areas
@@ -164,6 +200,7 @@ expertiseAreas := []string{
     "🎲 Random Data Generation Systems",
     "🌐 Location Tracking Services",
     "💰 Payment Processing Systems",
+    "☁️ AWS Cloud Infrastructure",
 }
 ```
 
@@ -189,7 +226,7 @@ expertiseAreas := []string{
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jiwwisaitad01@gmail.com)
 
 ### 💬 Available for:
-**Backend Architecture** • **Database Engineering** • **Go Development** • **System Design** • **Technical Consultation** • **Kubernetes Solutions**
+**Backend Architecture** • **Database Engineering** • **Go Development** • **System Design** • **AWS Cloud Solutions** • **Technical Consultation**
 
 </div>
 
@@ -198,5 +235,5 @@ expertiseAreas := []string{
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=wisaitas&color=blueviolet&style=for-the-badge" alt="Profile views" />
   
-  **🔥 22 Repositories • 10+ Stars • 70% Go Expert • Computer Engineering Student**
+  **🔥 22 Repositories • 10+ Stars • 70% Go Expert • AWS Certified • Computer Engineering Student**
 </div>
