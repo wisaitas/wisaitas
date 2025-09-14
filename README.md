@@ -89,26 +89,6 @@ Rust ███ 5% (1)
 
 <div align="center">
 
-```go
-type Certification struct {
-    Provider     string `json:"provider"`
-    Name         string `json:"certification_name"`
-    Status       string `json:"status"`
-    VerifyURL    string `json:"verification_url"`
-    Focus        []string `json:"focus_areas"`
-}
-
-certifications := []Certification{
-    {
-        Provider:  "Amazon Web Services (AWS)",
-        Name:      "AWS Certified Professional",
-        Status:    "✅ Verified & Active",
-        VerifyURL: "https://cp.certmetrics.com/amazon/en/public/verify/credential/422ee9eb32e546c1b93ae13c9a5a477d",
-        Focus:     []string{"Cloud Architecture", "Infrastructure", "DevOps", "Security"},
-    },
-}
-```
-
 <table>
 <tr>
 <td align="center" width="200">
