@@ -23,7 +23,7 @@ func NewDeveloper() *Developer {
         Location:  "Thailand 🇹🇭",
         Education: "Computer Engineering Student",
         Languages: []string{"Go", "JavaScript", "Java", "Rust", "Shell"},
-        Focus:     []string{"Microservices", "Database Architecture", "Clean Architecture", "DevOps"},
+        Focus:     []string{"Microservices", "Database Architecture", "Clean Architecture", "DevOps", "Kubernetes"},
     }
 }
 ```
@@ -37,7 +37,7 @@ func NewDeveloper() *Developer {
 <tr>
 <td align="center" width="120">
 <img src="https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<br><strong>10 Projects</strong>
+<br><strong>14 Projects</strong>
 <br><sub>⭐ Expert Level</sub>
 </td>
 <td align="center" width="120">
@@ -64,11 +64,11 @@ func NewDeveloper() *Developer {
 </table>
 
 ### 📊 Language Distribution
-Go ██████████████████████████████████████████████████████████████ 58.8% (10)
-JavaScript ███████████ 11.8% (2)
-Shell ███████████ 11.8% (2)
-Java █████ 5.9% (1)
-Rust █████ 5.9% (1)
+Go ████████████████████████████████████████████████████████████████████████ 70% (14)
+JavaScript ██████ 10% (2)
+Shell ██████ 10% (2)
+Java ███ 5% (1)
+Rust ███ 5% (1)
 
 </div>
 
@@ -79,40 +79,50 @@ Rust █████ 5.9% (1)
 | **Backend Architecture** | **Database Engineering** | **Infrastructure** | **Microservices** |
 |:------------------------:|:------------------------:|:------------------:|:------------------:|
 | 🏗️ Clean Architecture | 🗄️ PostgreSQL Sharding | 🐳 Docker & K8s | 🔗 gRPC & GraphQL |
-| 📡 REST & GraphQL APIs | 🔄 Master-Replica Setup | ☁️ Cloud Native | 📨 Message Queues |
-| 🎯 Domain-Driven Design | 📊 Hash Partitioning | 🔧 CI/CD Pipelines | 🔐 Auth & Security |
+| 📡 REST & GraphQL APIs | 🔄 Master-Replica Setup | ☁️ Cloud Native | 📨 Kafka & Queues |
+| 🎯 Domain-Driven Design | 📊 Hash Partitioning | 🔧 CI/CD Pipelines | 🔐 RBAC & Auth |
+| 🧪 Automated Testing | 📈 Performance Tuning | 📦 Batch Processing | 🎲 Random Systems |
 
 </div>
 
-## 🌟 Signature Projects
+## 🌟 Featured Projects
 
 <div align="center">
 
 [![Standard Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=standard-golang&theme=radical)](https://github.com/wisaitas/standard-golang)
+[![Sharding Golang](https://github-readme-stats.vercel.app/api/pin/?username=wisaitas&repo=sharding-golang&theme=radical)](https://github.com/wisaitas/sharding-golang)
 
 </div>
 
-## 🎯 Latest Achievement
+## 🎯 Latest Achievements
 
 ```go
-// 🚀 NEW: PostgreSQL Sharding with Master-Replica Architecture
-type ShardingProject struct {
-    Name         string `json:"name"`
-    Tech         []string `json:"technologies"`
-    Features     []string `json:"features"`
-    Complexity   string `json:"complexity"`
+// 🚀 Recent Milestones
+type RecentWork struct {
+    TotalRepos     int      `json:"total_repositories"`
+    NewProjects    []string `json:"latest_projects"`
+    Specialization []string `json:"current_focus"`
+    Stars          int      `json:"total_stars"`
 }
 
-latestProject := ShardingProject{
-    Name: "sharding-golang",
-    Tech: []string{"Go", "PostgreSQL 17", "GORM", "Docker Compose"},
-    Features: []string{
-        "Hash Partitioning (4 Shards)",
-        "Master-Replica Replication", 
-        "Load Balancing with DBResolver",
-        "UUID v7 for Time-Ordered IDs",
+achievements := RecentWork{
+    TotalRepos: 22, // Updated September 2025
+    NewProjects: []string{
+        "🔄 k8s-batch - Kubernetes Batch Processing",
+        "🗂️ template-golang - Go Project Template", 
+        "🦀 rust-basic - Rust Fundamentals",
+        "📊 log-system - Advanced Logging System",
+        "🧪 automated-test-golang - Test Automation",
+        "⚡ sharding-golang - Database Sharding",
     },
-    Complexity: "Advanced Database Architecture",
+    Specialization: []string{
+        "Database Sharding & Partitioning",
+        "Kubernetes Batch Jobs", 
+        "Automated Testing Frameworks",
+        "Template-based Development",
+        "Message Queue Systems",
+    },
+    Stars: 10, // Growing community support
 }
 ```
 
@@ -125,26 +135,52 @@ latestProject := ShardingProject{
 
 </div>
 
-## 🎯 Current Focus
+## 🎯 Current Focus (September 2025)
 
 ```go
-// What I'm working on
+// What I'm actively working on
 currentProjects := []string{
-    "🚀 Advanced Go Microservices",
-    "🗄️ Database Sharding & Partitioning",
-    "☁️ Cloud-Native Applications", 
-    "🔐 Authentication Systems",
-    "📊 Distributed Systems",
+    "🔄 Kubernetes Batch Processing (k8s-batch)",
+    "🗄️ PostgreSQL Sharding Architecture", 
+    "🧪 Advanced Test Automation Frameworks",
+    "📊 Distributed Logging Systems",
+    "⚡ High-Performance Go Services",
+    "🦀 Learning Rust for Systems Programming",
 }
 
-// Learning path
-learningNext := []string{
-    "Kubernetes & Service Mesh",
-    "Event-Driven Architecture", 
-    "Advanced Database Optimization",
-    "System Design Patterns",
+// Next learning objectives
+roadmap2025 := []string{
+    "Advanced Kubernetes Operators",
+    "Event-Driven Architecture with Kafka", 
+    "Database Performance Optimization",
+    "Observability & Monitoring Stack",
+    "Cloud-Native Security Patterns",
+}
+
+// Technical expertise areas
+expertiseAreas := []string{
+    "🔗 gRPC & GraphQL APIs",
+    "🔐 Authentication & RBAC Systems", 
+    "📨 Message Queue Implementation",
+    "🎲 Random Data Generation Systems",
+    "🌐 Location Tracking Services",
+    "💰 Payment Processing Systems",
 }
 ```
+
+## 🏆 Project Highlights
+
+<div align="center">
+
+| **Project** | **Tech Stack** | **Stars** | **Focus Area** |
+|:-----------:|:---------------:|:---------:|:--------------:|
+| [standard-golang](https://github.com/wisaitas/standard-golang) | Go, PostgreSQL | ⭐ 7 | Clean Architecture |
+| [sharding-golang](https://github.com/wisaitas/sharding-golang) | Go, PostgreSQL 17 | 🚀 New | Database Sharding |
+| [k8s-batch](https://github.com/wisaitas/k8s-batch) | Go, Kubernetes | 🔄 Latest | Batch Processing |
+| [share-pkg](https://github.com/wisaitas/share-pkg) | Go | ⭐ 1 | Shared Libraries |
+| [express-practice](https://github.com/wisaitas/express-practice) | JavaScript | ⭐ 1 | Full-stack |
+
+</div>
 
 ## 🤝 Let's Connect!
 
@@ -154,7 +190,7 @@ learningNext := []string{
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jiwwisaitad01@gmail.com)
 
 ### 💬 Available for:
-**Backend Architecture** • **Database Engineering** • **Go Development** • **System Design** • **Technical Consultation**
+**Backend Architecture** • **Database Engineering** • **Go Development** • **System Design** • **Technical Consultation** • **Kubernetes Solutions**
 
 </div>
 
@@ -162,4 +198,6 @@ learningNext := []string{
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=wisaitas&color=blueviolet&style=for-the-badge" alt="Profile views" />
+  
+  **🔥 22 Repositories • 10+ Stars • 70% Go Expert • Computer Engineering Student**
 </div>
